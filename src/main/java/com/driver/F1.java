@@ -3,7 +3,10 @@ package com.driver;
 public class F1 extends Car {
 
     public F1(String name, boolean isManual) {
+        super();
+
         //Use arbitrary values for parameters which are not mentioned
+
     }
 
     public void accelerate(int rate){
@@ -27,4 +30,10 @@ public class F1 extends Car {
             changeSpeed(newSpeed, getCurrentDirection());
         }
     }
+
+    private int getCurrentDirection() {
+        return  0;
+    }
+
+
 }
